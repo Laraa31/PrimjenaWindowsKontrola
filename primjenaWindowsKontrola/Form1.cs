@@ -34,7 +34,7 @@ namespace primjenaWindowsKontrola
             }
             else
             {
-                MessageBox
+                MessageBox.Show("Obavještenje", "Niste odabrali valjanu aplikaciju", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Information);
             }
             
 
